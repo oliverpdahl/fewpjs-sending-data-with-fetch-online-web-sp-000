@@ -10,7 +10,7 @@ function submitData(name, email){
     headers: {
       "Content-Type": "application/json",
       "Accept": "application/json"
-    }
+    },
     body: JSON:stringify(formData)
   }
 
